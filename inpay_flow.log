@@ -1,0 +1,1560 @@
+2023-05-02 13:53:05,259 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-02 13:53:05,750 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 500 None
+2023-05-02 13:53:05,751 - ERROR - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\annan\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\annan\PycharmProjects\inpay\TrxDEBIT_flow.py", line 30, in main_flow
+    loginToken = GetAuthTokenResponse.json().get("access_token")
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-05-02 13:56:02,205 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-02 13:56:02,506 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 500 None
+2023-05-02 13:56:02,507 - ERROR - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\annan\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\annan\PycharmProjects\inpay\TrxDEBIT_flow.py", line 30, in main_flow
+    loginToken = GetAuthTokenResponse.json().get("access_token")
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-05-02 14:08:11,159 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-02 14:08:11,531 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 500 None
+2023-05-02 14:08:11,532 - ERROR - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\annan\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\annan\PycharmProjects\inpay\TrxDEBIT_flow.py", line 30, in main_flow
+    loginToken = GetAuthTokenResponse.json().get("access_token")
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-05-02 14:09:47,768 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 14:58:24,093 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-02 14:58:24,422 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 500 None
+2023-05-02 14:58:24,423 - ERROR - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\annan\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\annan\PycharmProjects\inpay\DebitPayment_flow.py", line 31, in main_flow
+    loginToken = GetAuthTokenResponse.json().get("access_token")
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-05-02 15:04:59,044 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-02 15:04:59,438 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 500 None
+2023-05-02 15:04:59,443 - ERROR - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\annan\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\annan\PycharmProjects\inpay\DebitPayment_flow.py", line 31, in main_flow
+    loginToken = GetAuthTokenResponse.json().get("access_token")
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-05-02 15:09:12,580 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-02 15:09:13,204 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-02 15:09:38,442 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:09:49,847 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:09:52,046 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:09:53,268 - INFO - Successfully logged in!
+2023-05-02 15:09:53,314 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:09:56,138 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:09:58,806 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:10:00,275 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:10:01,531 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:10:02,495 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:10:03,337 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:10:04,439 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:10:05,253 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:10:06,386 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:10:11,399 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:10:15,242 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-02 15:10:15,286 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:10:20,216 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:10:22,758 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:10:24,228 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:10:25,445 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:10:26,549 - INFO - DEBIT payment is created
+2023-05-02 15:10:26,594 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:10:27,967 - INFO - MWVYmxkazwqrqbJ0PoX1
+2023-05-02 15:10:28,000 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:10:29,142 - INFO - SEPA
+2023-05-02 15:10:29,202 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:10:30,487 - INFO - 23.64900438807062
+2023-05-02 15:10:30,521 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:10:31,630 - INFO - CREATED
+2023-05-02 15:10:31,678 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-02 15:23:17,729 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-02 15:23:18,381 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-02 15:23:18,381 - INFO - Successfully logged in!
+2023-05-02 15:23:19,982 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-02 15:23:19,983 - INFO - DEBIT payment is created
+2023-05-02 15:23:19,983 - INFO - yZYK4w9aAY8R9avMRnBp
+2023-05-02 15:23:19,983 - INFO - SEPA
+2023-05-02 15:23:19,983 - INFO - 20.04906362099877
+2023-05-02 15:23:19,983 - INFO - CREATED
+2023-05-02 15:29:52,247 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-02 15:29:52,768 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-02 15:29:52,769 - INFO - Successfully logged in!
+2023-05-02 15:29:54,390 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-02 15:29:54,391 - INFO - DEBIT payment is created
+2023-05-02 15:29:54,392 - INFO - Ry83X46dBY1VQb79jAkG
+2023-05-02 15:29:54,392 - INFO - SEPA
+2023-05-02 15:29:54,392 - INFO - 9.098469555525963
+2023-05-02 15:29:54,393 - INFO - CREATED
+2023-05-02 15:29:54,609 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 500 None
+2023-05-02 15:29:54,609 - ERROR - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\annan\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\annan\PycharmProjects\inpay\DebitPayment_flow.py", line 82, in main_flow
+    paymentID = CreateDebitPaymentResponse.json().get("paymentId")
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-05-02 15:30:39,721 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-02 15:30:40,089 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-02 15:30:40,090 - INFO - Successfully logged in!
+2023-05-02 15:30:41,555 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-02 15:30:41,555 - INFO - DEBIT payment is created
+2023-05-02 15:30:41,555 - INFO - K4mVoBDbDVwX6el2EONv
+2023-05-02 15:30:41,556 - INFO - SEPA
+2023-05-02 15:30:41,556 - INFO - 8.561444648649747
+2023-05-02 15:30:41,556 - INFO - CREATED
+2023-05-02 15:30:43,363 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-02 15:30:43,363 - INFO - DEBIT payment is created
+2023-05-02 15:30:43,363 - INFO - Yq1gK4oeEVKYWa0ByxjX
+2023-05-02 15:30:43,365 - INFO - INTERNAL
+2023-05-02 15:30:43,365 - INFO - 13.477135368122473
+2023-05-02 15:30:43,365 - INFO - CREATED
+2023-05-02 15:30:54,605 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-02 15:30:55,329 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-02 15:30:55,330 - INFO - Successfully logged in!
+2023-05-02 15:30:56,821 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-02 15:30:56,821 - INFO - DEBIT payment is created
+2023-05-02 15:30:56,821 - INFO - LV65xYRdGVw1KbDzOWg4
+2023-05-02 15:30:56,821 - INFO - SEPA
+2023-05-02 15:30:56,821 - INFO - 21.181361367780823
+2023-05-02 15:30:56,821 - INFO - CREATED
+2023-05-02 15:30:58,738 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-02 15:30:58,739 - INFO - DEBIT payment is created
+2023-05-02 15:30:58,740 - INFO - 3Bk61YQdJ9E4KbOGpJZn
+2023-05-02 15:30:58,740 - INFO - INTERNAL
+2023-05-02 15:30:58,740 - INFO - 17.16891969759135
+2023-05-02 15:30:58,740 - INFO - CREATED
+2023-05-02 15:40:28,007 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-02 15:40:28,668 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-02 15:40:28,668 - INFO - Successfully logged in!
+2023-05-02 15:40:30,338 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-02 15:40:30,338 - INFO - DEBIT payment is created
+2023-05-02 15:40:30,338 - INFO - gP8V4y1aKVAgGeQGw5Wv
+2023-05-02 15:40:30,338 - INFO - SEPA
+2023-05-02 15:40:30,338 - INFO - 7.743103376630948
+2023-05-02 15:40:30,338 - INFO - CREATED
+2023-05-02 15:40:32,258 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-02 15:40:32,260 - INFO - DEBIT payment is created
+2023-05-02 15:40:32,260 - INFO - k1oYq9wdLVAjDajPXgEB
+2023-05-02 15:40:32,261 - INFO - INTERNAL
+2023-05-02 15:40:32,261 - INFO - 5.564788904824319
+2023-05-02 15:40:32,261 - INFO - CREATED
+2023-05-02 15:40:49,003 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-02 15:40:49,364 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-02 15:40:49,366 - INFO - Successfully logged in!
+2023-05-02 15:40:50,897 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-02 15:40:50,898 - INFO - DEBIT payment is created
+2023-05-02 15:40:50,898 - INFO - 9RO37N1aMV7kmbWmpnyx
+2023-05-02 15:40:50,898 - INFO - SEPA
+2023-05-02 15:40:50,898 - INFO - 7.388173554513379
+2023-05-02 15:40:50,898 - INFO - CREATED
+2023-05-02 15:40:52,570 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-02 15:40:52,571 - INFO - DEBIT payment is created
+2023-05-02 15:40:52,571 - INFO - oRkpQJ0dN67l2dLOvE2M
+2023-05-02 15:40:52,571 - INFO - INTERNAL
+2023-05-02 15:40:52,571 - INFO - 9.229607679364982
+2023-05-02 15:40:52,571 - INFO - CREATED
+2023-05-02 15:41:40,504 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-02 15:41:41,110 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-02 15:41:41,110 - INFO - Successfully logged in!
+2023-05-02 15:41:42,663 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-02 15:41:42,663 - INFO - DEBIT payment is created
+2023-05-02 15:41:42,663 - INFO - X90Gz3YaO0JmRbxqlW14
+2023-05-02 15:41:42,663 - INFO - SEPA
+2023-05-02 15:41:42,663 - INFO - 9.775421133267344
+2023-05-02 15:41:42,663 - INFO - CREATED
+2023-05-02 15:41:44,309 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-02 15:41:44,309 - INFO - DEBIT payment is created
+2023-05-02 15:41:44,310 - INFO - 4o5pmWZdPV6nAaKgRlQ6
+2023-05-02 15:41:44,310 - INFO - INTERNAL
+2023-05-02 15:41:44,310 - INFO - 19.49919120834262
+2023-05-02 15:41:44,310 - INFO - CREATED
+2023-05-02 16:08:48,622 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-02 16:08:49,391 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-02 16:08:49,394 - INFO - Successfully logged in!
+2023-05-02 16:08:51,016 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-02 16:08:51,016 - INFO - DEBIT payment is created
+2023-05-02 16:08:51,016 - INFO - 4XgELYqaQ8AoGenjk2m9
+2023-05-02 16:08:51,016 - INFO - SEPA
+2023-05-02 16:08:51,016 - INFO - 18.506294407822068
+2023-05-02 16:08:51,016 - INFO - CREATED
+2023-05-02 16:08:53,083 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-02 16:08:53,084 - INFO - DEBIT payment is created
+2023-05-02 16:08:53,084 - INFO - 15wNJAPdRV8pVdGyOXpZ
+2023-05-02 16:08:53,084 - INFO - INTERNAL
+2023-05-02 16:08:53,085 - INFO - 18.18990580784251
+2023-05-02 16:08:53,085 - INFO - CREATED
+2023-05-02 16:42:20,175 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-02 16:42:20,880 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-02 16:42:20,882 - INFO - Successfully logged in!
+2023-05-02 16:42:22,578 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-02 16:42:22,580 - INFO - DEBIT payment is created
+2023-05-02 16:42:22,580 - INFO - 3R9OjoQeZ9ZAQdpZVg8l
+2023-05-02 16:42:22,580 - INFO - SEPA
+2023-05-02 16:42:22,580 - INFO - 2.1094498286014787
+2023-05-02 16:42:22,581 - INFO - CREATED
+2023-05-02 16:42:24,542 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-02 16:42:24,543 - INFO - DEBIT payment is created
+2023-05-02 16:42:24,543 - INFO - BqnkEKQe1vV0ZaJYvV0A
+2023-05-02 16:42:24,543 - INFO - INTERNAL
+2023-05-02 16:42:24,544 - INFO - 21.418130099679637
+2023-05-02 16:42:24,544 - INFO - CREATED
+2023-05-02 16:42:37,055 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-02 16:42:37,055 - INFO - DEBIT payment is created
+2023-05-02 16:42:37,056 - INFO - Qpz4yJrb2wGyMdWLDX7w
+2023-05-02 16:42:37,056 - INFO - SEPA
+2023-05-02 16:42:37,056 - INFO - 22.33212355417359
+2023-05-02 16:42:37,056 - INFO - REJECTED
+2023-05-04 09:53:26,521 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-04 09:53:27,259 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-04 09:53:27,262 - INFO - Successfully logged in!
+2023-05-04 09:53:29,292 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-04 09:53:29,292 - INFO - DEBIT payment is created
+2023-05-04 09:53:29,292 - INFO - AoVqQK9b6AYDOaEvYnGp
+2023-05-04 09:53:29,292 - INFO - SEPA
+2023-05-04 09:53:29,292 - INFO - 1.255360888274387
+2023-05-04 09:53:29,292 - INFO - CREATED
+2023-05-04 09:53:30,909 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-04 09:53:30,909 - INFO - DEBIT payment is created
+2023-05-04 09:53:30,910 - INFO - zqmQO5xe7BDEQd7rJX0A
+2023-05-04 09:53:30,910 - INFO - INTERNAL
+2023-05-04 09:53:30,910 - INFO - 7.232648904025051
+2023-05-04 09:53:30,910 - INFO - CREATED
+2023-05-04 09:53:43,385 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-04 09:53:43,385 - INFO - DEBIT payment is created
+2023-05-04 09:53:43,385 - INFO - YBDXMVyb8DXGjbvAZEJ2
+2023-05-04 09:53:43,385 - INFO - SEPA
+2023-05-04 09:53:43,385 - INFO - 14.171639457312732
+2023-05-04 09:53:43,385 - INFO - REJECTED
+2023-05-04 10:19:21,066 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-04 10:19:21,895 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-04 10:19:21,897 - INFO - Successfully logged in!
+2023-05-04 10:19:23,313 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-04 10:19:23,315 - INFO - DEBIT payment is created
+2023-05-04 10:19:23,315 - INFO - 0qjMVWPe9E3JJeLywr4p
+2023-05-04 10:19:23,316 - INFO - SEPA
+2023-05-04 10:19:23,316 - INFO - 15.8803028132927
+2023-05-04 10:19:23,316 - INFO - CREATED
+2023-05-04 10:19:24,936 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-04 10:19:24,938 - INFO - DEBIT payment is created
+2023-05-04 10:19:24,938 - INFO - g5m6QnXe0rAw5bxrLjly
+2023-05-04 10:19:24,938 - INFO - INTERNAL
+2023-05-04 10:19:24,939 - INFO - 7.323378377818041
+2023-05-04 10:19:24,939 - INFO - CREATED
+2023-05-04 10:19:37,463 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-04 10:19:37,463 - INFO - DEBIT payment is created
+2023-05-04 10:19:37,463 - INFO - yLkQWjneg97RrbwZ1p0G
+2023-05-04 10:19:37,463 - INFO - SEPA
+2023-05-04 10:19:37,463 - INFO - 20.7765445109724
+2023-05-04 10:19:37,463 - INFO - REJECTED
+2023-05-14 12:26:56,603 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 12:26:57,388 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-14 12:26:57,391 - INFO - Successfully logged in!
+2023-05-14 12:26:57,632 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-14 12:26:57,632 - INFO - 400
+2023-05-14 12:26:59,399 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 12:26:59,400 - INFO - Internal DEBIT transaction is created
+2023-05-14 12:26:59,400 - INFO - gO3GWpmbk06y6dzJn4KR
+2023-05-14 12:26:59,400 - INFO - INTERNAL
+2023-05-14 12:26:59,400 - INFO - 17.93894363690531
+2023-05-14 12:26:59,400 - INFO - CREATED
+2023-05-14 12:26:59,605 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-14 12:26:59,606 - INFO - 400
+2023-05-14 12:48:37,095 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 12:48:37,195 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 403 None
+2023-05-14 12:48:37,197 - ERROR - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\annan\Python310\lib\site-packages\simplejson\__init__.py", line 514, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\annan\Python310\lib\site-packages\simplejson\decoder.py", line 386, in decode
+    obj, end = self.raw_decode(s)
+  File "C:\Users\annan\Python310\lib\site-packages\simplejson\decoder.py", line 416, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.errors.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\annan\PycharmProjects\inpay\DebitPayment_flow.py", line 31, in main_flow
+    loginToken = GetAuthTokenResponse.json().get("access_token")
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-05-14 12:52:47,761 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 12:52:47,825 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 403 None
+2023-05-14 12:52:47,827 - ERROR - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\annan\Python310\lib\site-packages\simplejson\__init__.py", line 514, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\annan\Python310\lib\site-packages\simplejson\decoder.py", line 386, in decode
+    obj, end = self.raw_decode(s)
+  File "C:\Users\annan\Python310\lib\site-packages\simplejson\decoder.py", line 416, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.errors.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\annan\PycharmProjects\inpay\DebitPayment_flow.py", line 31, in main_flow
+    loginToken = GetAuthTokenResponse.json().get("access_token")
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-05-14 12:53:31,579 - DEBUG - Encoding detection: utf_8 is most likely the one.
+2023-05-14 12:54:38,058 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 12:54:38,171 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 403 None
+2023-05-14 12:54:38,172 - ERROR - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\annan\Python310\lib\site-packages\simplejson\__init__.py", line 514, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\annan\Python310\lib\site-packages\simplejson\decoder.py", line 386, in decode
+    obj, end = self.raw_decode(s)
+  File "C:\Users\annan\Python310\lib\site-packages\simplejson\decoder.py", line 416, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.errors.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\annan\PycharmProjects\inpay\DebitPayment_flow.py", line 31, in main_flow
+    loginToken = GetAuthTokenResponse.json().get("access_token")
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-05-14 14:31:01,662 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 14:31:02,480 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-14 14:31:02,481 - INFO - Successfully logged in to Wallter!
+2023-05-14 14:31:02,789 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-14 14:31:02,789 - INFO - 400
+2023-05-14 14:31:04,465 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 14:31:04,467 - INFO - Internal DEBIT transaction is created
+2023-05-14 14:31:04,467 - INFO - LPQZOpnel98zMaKBzyVX
+2023-05-14 14:31:04,468 - INFO - INTERNAL
+2023-05-14 14:31:04,468 - INFO - 14.338160994772457
+2023-05-14 14:31:04,468 - INFO - CREATED
+2023-05-14 14:31:04,738 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-14 14:31:04,738 - INFO - 400
+2023-05-14 14:31:07,441 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 14:31:07,715 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-14 14:31:07,716 - INFO - Successfully logged in to Wallter!
+2023-05-14 14:31:07,933 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-14 14:31:07,933 - INFO - 400
+2023-05-14 14:31:09,640 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 14:31:09,641 - INFO - Internal DEBIT transaction is created
+2023-05-14 14:31:09,641 - INFO - Erm0wMvbm97AGbYAlO1n
+2023-05-14 14:31:09,641 - INFO - INTERNAL
+2023-05-14 14:31:09,642 - INFO - 9.755955216974643
+2023-05-14 14:31:09,642 - INFO - CREATED
+2023-05-14 14:31:09,944 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-14 14:31:09,944 - INFO - 400
+2023-05-14 14:48:26,355 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 14:48:27,053 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-14 14:48:27,054 - INFO - Successfully logged in to Wallter!
+2023-05-14 14:48:27,397 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-14 14:48:27,399 - INFO - 400
+2023-05-14 14:48:29,294 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 14:48:29,295 - INFO - Internal DEBIT transaction is created
+2023-05-14 14:48:29,295 - INFO - 8M7Vl4zbqkAGpeprOZqE
+2023-05-14 14:48:29,295 - INFO - INTERNAL
+2023-05-14 14:48:29,295 - INFO - 23.239038139568276
+2023-05-14 14:48:29,295 - INFO - CREATED
+2023-05-14 14:48:41,851 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 14:48:41,852 - INFO - SEPA Instant transaction is created
+2023-05-14 14:48:41,852 - INFO - x3VXyMYerlgJpbOBQn6L
+2023-05-14 14:48:41,852 - INFO - SEPA
+2023-05-14 14:48:41,852 - INFO - 4.736762993143469
+2023-05-14 14:48:41,852 - INFO - REJECTED
+2023-05-14 15:02:08,967 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 15:02:09,733 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-14 15:02:09,734 - INFO - Successfully logged in to Wallter!
+2023-05-14 15:02:11,160 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 15:02:11,161 - INFO - SEPA DEBIT transaction is created
+2023-05-14 15:02:11,161 - INFO - wGqLkzPdyvp0neQrov3K
+2023-05-14 15:02:11,161 - INFO - SEPA
+2023-05-14 15:02:11,161 - INFO - 7.1981823809670225
+2023-05-14 15:02:11,161 - INFO - CREATED
+2023-05-14 15:02:12,929 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 15:02:12,930 - INFO - Internal DEBIT transaction is created
+2023-05-14 15:02:12,931 - INFO - MWVYmxkazwqRybJ0PoX1
+2023-05-14 15:02:12,931 - INFO - INTERNAL
+2023-05-14 15:02:12,931 - INFO - 9.818214096109418
+2023-05-14 15:02:12,931 - INFO - CREATED
+2023-05-14 15:02:25,420 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 15:02:25,420 - INFO - SEPA Instant transaction is created
+2023-05-14 15:02:25,420 - INFO - yZYK4w9aAY8wlavMRnBp
+2023-05-14 15:02:25,421 - INFO - SEPA
+2023-05-14 15:02:25,421 - INFO - 3.4794159812010883
+2023-05-14 15:02:25,421 - INFO - REJECTED
+2023-05-14 15:32:27,809 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 15:32:28,608 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-14 15:32:28,610 - INFO - Successfully logged in to Wallter!
+2023-05-14 15:32:30,147 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 15:32:30,149 - INFO - SEPA DEBIT transaction is created
+2023-05-14 15:32:30,150 - INFO - 4o5pmWZdPV6P4aKgRlQ6
+2023-05-14 15:32:30,150 - INFO - SEPA
+2023-05-14 15:32:30,150 - INFO - 5.715537009458002
+2023-05-14 15:32:30,150 - INFO - CREATED
+2023-05-14 15:32:32,046 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 15:32:32,047 - INFO - Internal DEBIT transaction is created
+2023-05-14 15:32:32,047 - INFO - 4XgELYqaQ8AQ9enjk2m9
+2023-05-14 15:32:32,047 - INFO - INTERNAL
+2023-05-14 15:32:32,047 - INFO - 7.3610785876403435
+2023-05-14 15:32:32,047 - INFO - CREATED
+2023-05-14 15:32:44,620 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 15:32:44,621 - INFO - SEPA Instant transaction is created
+2023-05-14 15:32:44,621 - INFO - 15wNJAPdRV8REdGyOXpZ
+2023-05-14 15:32:44,621 - INFO - SEPA
+2023-05-14 15:32:44,621 - INFO - 1.2226806007410627
+2023-05-14 15:32:44,621 - INFO - REJECTED
+2023-05-14 15:51:46,881 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 15:51:47,576 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-14 15:51:47,578 - INFO - Successfully logged in to Wallter!
+2023-05-14 15:51:49,105 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 15:51:49,106 - INFO - SEPA DEBIT transaction is created
+2023-05-14 15:51:49,106 - INFO - ygqPGELe3xY7Ra698jZX
+2023-05-14 15:51:49,106 - INFO - SEPA
+2023-05-14 15:51:49,106 - INFO - 9.632901832618431
+2023-05-14 15:51:49,106 - INFO - CREATED
+2023-05-14 15:51:50,874 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 15:51:50,876 - INFO - Internal DEBIT transaction is created
+2023-05-14 15:51:50,876 - INFO - 50r4KGRb4yWgxdBLZQxg
+2023-05-14 15:51:50,876 - INFO - INTERNAL
+2023-05-14 15:51:50,876 - INFO - 3.407567671701603
+2023-05-14 15:51:50,877 - INFO - CREATED
+2023-05-14 15:51:52,188 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 15:51:52,188 - INFO - 200
+2023-05-14 16:07:10,029 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 16:07:10,766 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-14 16:07:10,769 - INFO - Successfully logged in to Wallter!
+2023-05-14 16:07:41,617 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 16:07:42,102 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-14 16:07:42,106 - INFO - Successfully logged in to Wallter!
+2023-05-14 16:07:54,341 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-14 16:09:08,470 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 16:09:09,155 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-14 16:09:33,134 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-14 16:09:36,342 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-14 16:09:42,820 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-14 16:09:48,087 - INFO - Successfully logged in to Wallter!
+2023-05-14 16:09:48,132 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-14 16:09:58,504 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-14 16:10:04,576 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-14 16:10:20,203 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-14 16:10:29,279 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-14 16:12:44,797 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-14 16:13:57,465 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 16:13:58,288 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-14 16:13:58,289 - INFO - Successfully logged in to Wallter!
+2023-05-14 16:14:42,303 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 16:14:43,018 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-14 16:14:43,019 - INFO - Successfully logged in to Wallter!
+2023-05-14 16:14:44,503 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 16:14:44,504 - INFO - SEPA DEBIT transaction is created
+2023-05-14 16:14:44,504 - INFO - AoVqQK9b6AYkRaEvYnGp
+2023-05-14 16:14:44,504 - INFO - SEPA
+2023-05-14 16:14:44,505 - INFO - 8.294238711817306
+2023-05-14 16:14:44,505 - INFO - CREATED
+2023-05-14 16:14:46,211 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 16:14:46,212 - INFO - Internal DEBIT transaction is created
+2023-05-14 16:14:46,212 - INFO - zqmQO5xe7BDl1d7rJX0A
+2023-05-14 16:14:46,212 - INFO - INTERNAL
+2023-05-14 16:14:46,212 - INFO - 8.119567134623464
+2023-05-14 16:14:46,212 - INFO - CREATED
+2023-05-14 16:14:47,527 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 16:14:47,527 - INFO - 200
+2023-05-14 16:20:48,316 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 16:20:49,126 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-14 16:20:49,127 - INFO - Successfully logged in to Wallter!
+2023-05-14 16:21:20,023 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-14 16:21:24,297 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-14 16:21:46,561 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 16:21:47,199 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-14 16:21:47,200 - INFO - Successfully logged in to Wallter!
+2023-05-14 16:23:54,380 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 16:23:54,835 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-14 16:23:54,837 - INFO - Successfully logged in to Wallter!
+2023-05-14 16:23:56,380 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 16:23:56,381 - INFO - SEPA DEBIT transaction is created
+2023-05-14 16:23:56,382 - INFO - 0qjMVWPe9E3nDeLywr4p
+2023-05-14 16:23:56,382 - INFO - SEPA
+2023-05-14 16:23:56,382 - INFO - 9.148743921460843
+2023-05-14 16:23:56,382 - INFO - CREATED
+2023-05-14 16:23:56,680 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/proof/0qjMVWPe9E3nDeLywr4p HTTP/1.1" 400 193
+2023-05-14 16:23:56,682 - INFO - 400
+2023-05-14 16:24:23,820 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 16:24:24,318 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-14 16:24:24,321 - INFO - Successfully logged in to Wallter!
+2023-05-14 16:24:25,853 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-14 16:24:25,854 - INFO - SEPA DEBIT transaction is created
+2023-05-14 16:24:25,854 - INFO - g5m6QnXe0rA4LbxrLjly
+2023-05-14 16:24:25,854 - INFO - SEPA
+2023-05-14 16:24:25,854 - INFO - 1.2118539437963256
+2023-05-14 16:24:25,854 - INFO - CREATED
+2023-05-14 16:24:37,307 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/proof/g5m6QnXe0rA4LbxrLjly HTTP/1.1" 400 193
+2023-05-14 16:26:40,990 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-14 16:30:38,644 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-14 17:12:46,164 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-14 17:12:46,945 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-14 17:12:46,945 - INFO - Successfully logged in to Wallter!
+2023-05-14 17:12:47,038 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments?start=1902-01-30T11:00:00Z&end=2023-04-24T11:00:00Z&page=1&itemPerPage=2 HTTP/1.1" 308 None
+2023-05-14 17:12:48,054 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/?start=1902-01-30T11:00:00Z&end=2023-04-24T11:00:00Z&page=1&itemPerPage=2 HTTP/1.1" 200 None
+2023-05-14 17:12:48,054 - INFO - Payments
+2023-05-15 09:06:27,720 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 09:06:28,589 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 09:06:28,592 - INFO - Successfully logged in to Wallter!
+2023-05-15 09:06:30,647 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 09:06:30,647 - INFO - SEPA DEBIT transaction is created
+2023-05-15 09:06:30,647 - INFO - gO3GWpmbk06z6dzJn4KR
+2023-05-15 09:06:30,647 - INFO - SEPA
+2023-05-15 09:06:30,648 - INFO - 2.962062320250556
+2023-05-15 09:06:30,648 - INFO - CREATED
+2023-05-15 09:06:30,959 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/proof/gO3GWpmbk06z6dzJn4KR HTTP/1.1" 400 193
+2023-05-15 09:06:30,959 - INFO - 400
+2023-05-15 11:29:19,608 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 11:29:20,501 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 11:29:20,505 - INFO - Successfully logged in to Wallter!
+2023-05-15 11:29:22,032 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 11:29:22,707 - INFO - SEPA DEBIT transaction is created
+2023-05-15 11:29:22,707 - INFO - (2065598,)
+2023-05-15 11:29:22,707 - INFO - SEPA
+2023-05-15 11:29:22,707 - INFO - 1.3011185924964037
+2023-05-15 11:29:22,707 - INFO - CREATED
+2023-05-15 11:29:42,323 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 11:29:43,039 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 11:29:43,042 - INFO - Successfully logged in to Wallter!
+2023-05-15 11:29:44,565 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 11:33:04,112 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 11:33:04,787 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 11:33:04,788 - INFO - Successfully logged in to Wallter!
+2023-05-15 11:33:06,255 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 11:36:30,444 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 11:36:31,199 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 11:36:31,201 - INFO - Successfully logged in to Wallter!
+2023-05-15 11:36:32,749 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 11:36:33,729 - INFO - SEPA DEBIT transaction is created
+2023-05-15 11:36:33,729 - INFO - 2065601
+2023-05-15 11:36:33,729 - INFO - SEPA
+2023-05-15 11:36:33,729 - INFO - 6.8560254877802995
+2023-05-15 11:36:33,729 - INFO - CREATED
+2023-05-15 11:36:38,946 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 11:36:39,572 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 11:36:39,575 - INFO - Successfully logged in to Wallter!
+2023-05-15 11:36:41,007 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 11:49:34,324 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 11:49:35,108 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 11:49:35,110 - INFO - Successfully logged in to Wallter!
+2023-05-15 11:49:36,626 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 11:53:18,083 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 11:53:18,769 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 11:53:18,769 - INFO - Successfully logged in to Wallter!
+2023-05-15 11:53:20,306 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 11:53:21,307 - INFO - SEPA DEBIT transaction is created
+2023-05-15 11:53:21,307 - INFO - 2065604
+2023-05-15 11:53:21,307 - INFO - SEPA
+2023-05-15 11:53:21,307 - INFO - 3.7148177385286836
+2023-05-15 11:53:21,307 - INFO - CREATED
+2023-05-15 11:53:21,396 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/6461f300ff10ff089700000f HTTP/1.1" 401 190
+2023-05-15 11:53:21,396 - INFO - 401
+2023-05-15 11:53:21,694 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/proof/Erm0wMvbm97B9bYAlO1n HTTP/1.1" 400 193
+2023-05-15 11:53:21,694 - INFO - 400
+2023-05-15 11:54:20,451 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 11:54:20,947 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 11:54:20,947 - INFO - Successfully logged in to Wallter!
+2023-05-15 11:54:22,468 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 11:54:23,444 - INFO - SEPA DEBIT transaction is created
+2023-05-15 11:54:23,444 - INFO - 2065605
+2023-05-15 11:54:23,444 - INFO - SEPA
+2023-05-15 11:54:23,444 - INFO - 4.3660960224171586
+2023-05-15 11:54:23,444 - INFO - CREATED
+2023-05-15 11:55:14,238 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/6461f33eff10ff0897000010 HTTP/1.1" 401 190
+2023-05-15 11:55:20,359 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-15 11:56:41,594 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-15 11:58:28,462 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-15 12:02:02,446 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 12:02:03,268 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 12:02:03,269 - INFO - Successfully logged in to Wallter!
+2023-05-15 12:02:04,937 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 12:02:05,874 - INFO - SEPA DEBIT transaction is created
+2023-05-15 12:02:05,874 - INFO - 2065606
+2023-05-15 12:02:05,875 - INFO - SEPA
+2023-05-15 12:02:05,875 - INFO - 4.101027569672857
+2023-05-15 12:02:05,875 - INFO - CREATED
+2023-05-15 12:02:05,979 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/6461f50dff10ff0897000011 HTTP/1.1" 401 190
+2023-05-15 12:02:05,980 - INFO - 401
+2023-05-15 12:02:06,268 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/proof/zQABWJxbogAEBbgwOL0E HTTP/1.1" 400 193
+2023-05-15 12:02:06,269 - INFO - 400
+2023-05-15 12:02:52,017 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 12:02:52,515 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 12:02:52,516 - INFO - Successfully logged in to Wallter!
+2023-05-15 12:02:54,059 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 12:02:55,052 - INFO - SEPA DEBIT transaction is created
+2023-05-15 12:02:55,052 - INFO - 2065607
+2023-05-15 12:02:55,052 - INFO - SEPA
+2023-05-15 12:02:55,052 - INFO - 9.905012944907241
+2023-05-15 12:02:55,052 - INFO - CREATED
+2023-05-15 12:02:55,202 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/6461f53eff10ff0897000012 HTTP/1.1" 401 190
+2023-05-15 12:02:55,202 - INFO - 401
+2023-05-15 12:02:55,500 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/proof/KWYxk8mepj9GpbMyJNjQ HTTP/1.1" 400 193
+2023-05-15 12:02:55,501 - INFO - 400
+2023-05-15 12:25:41,022 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 12:25:41,809 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 12:25:41,810 - INFO - Successfully logged in to Wallter!
+2023-05-15 12:25:43,247 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 12:25:44,203 - INFO - SEPA DEBIT transaction is created
+2023-05-15 12:25:44,203 - INFO - 2065608
+2023-05-15 12:25:44,203 - INFO - SEPA
+2023-05-15 12:25:44,203 - INFO - 9.108433924135813
+2023-05-15 12:25:44,203 - INFO - CREATED
+2023-05-15 12:25:44,204 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-15 12:25:44,412 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 403 None
+2023-05-15 12:34:51,376 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 12:34:52,212 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 12:34:52,215 - INFO - Successfully logged in to Wallter!
+2023-05-15 12:34:53,642 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 12:34:54,608 - INFO - SEPA DEBIT transaction is created
+2023-05-15 12:34:54,608 - INFO - 2065609
+2023-05-15 12:34:54,608 - INFO - SEPA
+2023-05-15 12:34:54,609 - INFO - 4.370779479155211
+2023-05-15 12:34:54,609 - INFO - CREATED
+2023-05-15 12:34:54,612 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-15 12:34:54,825 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 403 None
+2023-05-15 12:35:16,327 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-15 13:07:31,886 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 13:07:32,673 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 13:07:32,674 - INFO - Successfully logged in to Wallter!
+2023-05-15 13:07:34,193 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 13:07:35,190 - INFO - SEPA DEBIT transaction is created
+2023-05-15 13:07:35,190 - INFO - 2065610
+2023-05-15 13:07:35,190 - INFO - SEPA
+2023-05-15 13:07:35,190 - INFO - 7.919648027881277
+2023-05-15 13:07:35,190 - INFO - CREATED
+2023-05-15 13:07:35,192 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-15 13:07:35,786 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-15 13:07:35,876 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/64620466ff10ff0897000015 HTTP/1.1" 401 190
+2023-05-15 13:07:35,876 - INFO - 401
+2023-05-15 13:07:36,184 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/proof/58DKgl9avpmO0dG1vzAp HTTP/1.1" 400 193
+2023-05-15 13:07:36,186 - INFO - 400
+2023-05-15 13:08:49,067 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 13:08:49,798 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 13:08:49,798 - INFO - Successfully logged in to Wallter!
+2023-05-15 13:08:51,324 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 13:08:52,274 - INFO - SEPA DEBIT transaction is created
+2023-05-15 13:08:52,274 - INFO - 2065611
+2023-05-15 13:08:52,274 - INFO - SEPA
+2023-05-15 13:08:52,274 - INFO - 6.811350295882456
+2023-05-15 13:08:52,275 - INFO - CREATED
+2023-05-15 13:08:52,276 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-15 13:08:52,704 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-15 13:08:53,175 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/646204b3ff10ff0897000016 HTTP/1.1" 200 None
+2023-05-15 13:08:53,176 - INFO - 646204b3ff10ff0897000016
+2023-05-15 13:08:53,177 - INFO - Transaction is completed!
+2023-05-15 13:08:53,473 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/proof/kpPy7LDdwqnP1a1YKXAx HTTP/1.1" 400 193
+2023-05-15 13:08:53,473 - INFO - 400
+2023-05-15 13:09:49,170 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 13:09:49,841 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 13:09:49,841 - INFO - Successfully logged in to Wallter!
+2023-05-15 13:09:51,382 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 13:09:52,337 - INFO - SEPA DEBIT transaction is created
+2023-05-15 13:09:52,337 - INFO - 2065614
+2023-05-15 13:09:52,337 - INFO - SEPA
+2023-05-15 13:09:52,337 - INFO - 2.6280773660362584
+2023-05-15 13:09:52,337 - INFO - CREATED
+2023-05-15 13:09:52,340 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-15 13:09:52,969 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-15 13:09:53,468 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/646204efff10ff0897000019 HTTP/1.1" 200 None
+2023-05-15 13:09:53,469 - INFO - 646204efff10ff0897000019
+2023-05-15 13:09:53,469 - INFO - Transaction is completed!
+2023-05-15 13:19:17,232 - DEBUG - Resetting dropped connection: api-stage.wallter.com
+2023-05-15 13:19:17,898 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/proof/MWVYmxkazwq0ZbJ0PoX1 HTTP/1.1" 200 23346
+2023-05-15 13:19:45,516 - INFO - S
+2023-05-15 13:21:15,854 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 13:21:16,315 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 13:21:16,316 - INFO - Successfully logged in to Wallter!
+2023-05-15 13:21:17,838 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 13:21:18,882 - INFO - SEPA DEBIT transaction is created
+2023-05-15 13:21:18,882 - INFO - 2065617
+2023-05-15 13:21:18,882 - INFO - SEPA
+2023-05-15 13:21:18,882 - INFO - 1.7090142729038853
+2023-05-15 13:21:18,882 - INFO - CREATED
+2023-05-15 13:21:18,883 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-15 13:21:19,350 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-15 13:21:19,836 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/6462079eff10ff089700001c HTTP/1.1" 200 None
+2023-05-15 13:21:19,836 - INFO - 6462079eff10ff089700001c
+2023-05-15 13:21:19,837 - INFO - Transaction is completed!
+2023-05-15 13:21:20,148 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/proof/K4mVoBDbDVwByel2EONv HTTP/1.1" 400 193
+2023-05-15 13:21:20,149 - INFO - 400
+2023-05-15 13:30:17,963 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 13:30:18,726 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 13:30:18,728 - INFO - Successfully logged in to Wallter!
+2023-05-15 13:30:20,174 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 13:30:21,162 - INFO - SEPA DEBIT transaction is created
+2023-05-15 13:30:21,162 - INFO - 2065620
+2023-05-15 13:30:21,162 - INFO - SEPA
+2023-05-15 13:30:21,162 - INFO - 1.4655028558090124
+2023-05-15 13:30:21,162 - INFO - CREATED
+2023-05-15 13:30:21,165 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-15 13:30:21,694 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-15 13:30:22,196 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/646209bcff10ff089700001f HTTP/1.1" 200 None
+2023-05-15 13:30:22,197 - INFO - 646209bcff10ff089700001f
+2023-05-15 13:30:22,197 - INFO - Transaction is completed!
+2023-05-15 13:31:44,595 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/proof/3Bk61YQdJ9ELJbOGpJZn HTTP/1.1" 200 23349
+2023-05-15 13:32:18,137 - INFO - Proof of payment 
+2023-05-15 13:37:28,622 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 13:37:29,473 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 13:37:29,474 - INFO - Successfully logged in to Wallter!
+2023-05-15 13:37:31,022 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 13:37:32,020 - INFO - SEPA DEBIT transaction is created
+2023-05-15 13:37:32,020 - INFO - 2065623
+2023-05-15 13:37:32,020 - INFO - SEPA
+2023-05-15 13:37:32,020 - INFO - 2.3449793679782696
+2023-05-15 13:37:32,020 - INFO - CREATED
+2023-05-15 13:37:32,021 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-15 13:37:32,637 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-15 13:37:33,025 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/64620b6bff10ff0897000022 HTTP/1.1" 200 None
+2023-05-15 13:37:33,026 - INFO - 64620b6bff10ff0897000022
+2023-05-15 13:37:33,026 - INFO - Transaction is completed!
+2023-05-15 13:37:51,342 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 13:37:51,837 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 13:37:51,838 - INFO - Successfully logged in to Wallter!
+2023-05-15 13:37:53,364 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 13:37:54,312 - INFO - SEPA DEBIT transaction is created
+2023-05-15 13:37:54,312 - INFO - 2065626
+2023-05-15 13:37:54,312 - INFO - SEPA
+2023-05-15 13:37:54,312 - INFO - 5.3774277747029124
+2023-05-15 13:37:54,312 - INFO - CREATED
+2023-05-15 13:37:54,314 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-15 13:37:54,810 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-15 13:37:55,197 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/64620b81ff10ff0897000025 HTTP/1.1" 200 None
+2023-05-15 13:37:55,197 - INFO - 64620b81ff10ff0897000025
+2023-05-15 13:37:55,197 - INFO - Transaction is completed!
+2023-05-15 13:38:10,593 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/proof/4o5pmWZdPV621aKgRlQ6 HTTP/1.1" 200 23350
+2023-05-15 13:38:10,594 - INFO - 64620b81ff10ff0897000025
+2023-05-15 13:38:10,594 - INFO - Proof of payment is accepted
+2023-05-15 13:38:38,636 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 13:38:39,374 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 13:38:39,374 - INFO - Successfully logged in to Wallter!
+2023-05-15 13:38:41,048 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-15 13:38:42,011 - INFO - SEPA DEBIT transaction is created
+2023-05-15 13:38:42,012 - INFO - 2065629
+2023-05-15 13:38:42,012 - INFO - SEPA
+2023-05-15 13:38:42,012 - INFO - 8.802456040121543
+2023-05-15 13:38:42,012 - INFO - CREATED
+2023-05-15 13:38:42,013 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-15 13:38:42,432 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-15 13:38:42,926 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/64620bb1ff10ff0897000028 HTTP/1.1" 200 None
+2023-05-15 13:38:42,927 - INFO - 64620bb1ff10ff0897000028
+2023-05-15 13:38:42,927 - INFO - Transaction is completed!
+2023-05-15 13:38:58,305 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/proof/omQjOy5eVVJ8veEP4V27 HTTP/1.1" 200 23352
+2023-05-15 13:38:58,306 - INFO - 2065629
+2023-05-15 13:38:58,306 - INFO - Proof of payment is accepted
+2023-05-15 14:11:59,228 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 14:12:00,018 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 14:12:00,019 - INFO - Successfully logged in to Wallter!
+2023-05-15 14:12:00,106 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments?start=1902-01-30T11:00:00Z&end=2023-04-24T11:00:00Z&page=1&itemPerPage=2 HTTP/1.1" 308 None
+2023-05-15 14:12:01,190 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/?start=1902-01-30T11:00:00Z&end=2023-04-24T11:00:00Z&page=1&itemPerPage=2 HTTP/1.1" 200 None
+2023-05-15 14:12:01,191 - INFO - Payments
+2023-05-15 14:25:57,087 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 14:25:57,861 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 14:25:57,862 - INFO - Successfully logged in to Wallter!
+2023-05-15 14:25:57,944 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments?start=1902-01-30T11:00:00Z&end=2023-04-24T11:00:00Z&page=1&itemPerPage=2 HTTP/1.1" 308 None
+2023-05-15 14:25:59,113 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/?start=1902-01-30T11:00:00Z&end=2023-04-24T11:00:00Z&page=1&itemPerPage=2 HTTP/1.1" 200 None
+2023-05-15 15:03:35,096 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 15:03:35,828 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 15:03:35,829 - INFO - Successfully logged in to Wallter!
+2023-05-15 15:03:35,914 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments?start=1902-01-30T11:00:00Z&end=2023-04-24T11:00:00Z&page=1&itemPerPage=2 HTTP/1.1" 308 None
+2023-05-15 15:03:36,778 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/?start=1902-01-30T11:00:00Z&end=2023-04-24T11:00:00Z&page=1&itemPerPage=2 HTTP/1.1" 200 None
+2023-05-15 15:03:36,778 - INFO - Payments
+2023-05-15 15:05:40,913 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 15:05:41,637 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 15:05:41,638 - INFO - Successfully logged in to Wallter!
+2023-05-15 15:05:41,741 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments?start=1902-01-30T11:00:00Z&end=2023-04-24T11:00:00Z&page=1&itemPerPage=2 HTTP/1.1" 308 None
+2023-05-15 15:05:42,696 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/?start=1902-01-30T11:00:00Z&end=2023-04-24T11:00:00Z&page=1&itemPerPage=2 HTTP/1.1" 200 None
+2023-05-15 15:05:42,697 - INFO - Payments
+2023-05-15 15:26:54,790 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 15:26:55,565 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 15:26:55,566 - INFO - Successfully logged in to Wallter!
+2023-05-15 15:53:08,177 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 15:53:08,947 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 15:53:08,949 - INFO - Successfully logged in to Wallter!
+2023-05-15 15:53:09,045 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments?start=1902-01-30T11:00:00Z&end=2023-04-24T11:00:00Z&page=1&itemPerPage=2 HTTP/1.1" 308 None
+2023-05-15 15:53:10,055 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/?start=1902-01-30T11:00:00Z&end=2023-04-24T11:00:00Z&page=1&itemPerPage=2 HTTP/1.1" 200 None
+2023-05-15 15:53:10,057 - INFO - Payments
+2023-05-15 15:54:44,196 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-15 15:54:44,898 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-15 15:54:44,898 - INFO - Successfully logged in to Wallter!
+2023-05-15 15:54:44,987 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments?start=1902-01-30T11:00:00Z&end=2023-04-24T11:00:00Z&page=1&itemPerPage=2 HTTP/1.1" 308 None
+2023-05-15 15:54:46,022 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/?start=1902-01-30T11:00:00Z&end=2023-04-24T11:00:00Z&page=1&itemPerPage=2 HTTP/1.1" 200 None
+2023-05-15 15:54:46,023 - INFO - Payments
+2023-05-16 12:30:06,378 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-16 12:30:07,180 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-16 12:30:07,182 - INFO - Successfully logged in to Wallter!
+2023-05-16 12:30:08,656 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-16 12:30:08,658 - INFO - SEPA DEBIT transaction is created
+2023-05-16 12:30:08,658 - INFO - 8M7Vl4zbqkAP0eprOZqE
+2023-05-16 12:30:08,660 - INFO - SEPA
+2023-05-16 12:30:08,660 - INFO - 7.654643525505156
+2023-05-16 12:30:08,660 - INFO - CREATED
+2023-05-16 12:30:10,388 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-16 12:30:10,390 - INFO - Internal DEBIT transaction is created
+2023-05-16 12:30:10,390 - INFO - x3VXyMYerlgQ4bOBQn6L
+2023-05-16 12:30:10,390 - INFO - INTERNAL
+2023-05-16 12:30:10,390 - INFO - 4.358462055308175
+2023-05-16 12:30:10,390 - INFO - CREATED
+2023-05-16 12:32:01,343 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-16 12:32:34,363 - INFO - SEPA Instant transaction is created
+2023-05-16 12:32:36,848 - INFO - 58DKgl9avpmX0dG1vzAp
+2023-05-16 12:32:38,334 - INFO - SEPA
+2023-05-16 12:32:40,078 - INFO - 3.1577845320496127
+2023-05-16 12:32:42,119 - INFO - REJECTED
+2023-05-16 12:43:01,326 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-16 12:43:02,106 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-16 12:43:02,109 - INFO - Successfully logged in to Wallter!
+2023-05-16 12:43:03,425 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-16 12:43:03,426 - INFO - 200
+2023-05-16 12:43:32,195 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-16 12:43:32,829 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-16 12:43:32,830 - INFO - Successfully logged in to Wallter!
+2023-05-16 12:43:34,162 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-16 12:43:34,162 - INFO - 200
+2023-05-16 12:45:27,940 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-16 12:45:28,723 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-16 12:45:28,724 - INFO - Successfully logged in to Wallter!
+2023-05-16 12:45:30,063 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-16 12:45:30,064 - INFO - SEPA Instant transaction is created
+2023-05-16 12:45:30,064 - INFO - None
+2023-05-16 12:45:30,065 - INFO - None
+2023-05-16 12:45:30,065 - INFO - 2.2105013798263564
+2023-05-16 12:45:30,065 - INFO - None
+2023-05-16 12:51:04,274 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-16 12:51:05,026 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-16 12:51:05,027 - INFO - Successfully logged in to Wallter!
+2023-05-16 12:51:06,374 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-16 12:51:06,374 - INFO - SEPA Instant transaction is created
+2023-05-16 12:51:06,374 - INFO - None
+2023-05-16 12:51:06,374 - INFO - None
+2023-05-16 12:51:06,374 - INFO - 1.727477733562575
+2023-05-16 12:51:06,375 - INFO - None
+2023-05-16 14:56:18,911 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-16 14:56:19,675 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-16 14:56:19,676 - INFO - Successfully logged in to Wallter!
+2023-05-16 14:56:21,489 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-16 14:56:21,490 - INFO - Internal DEBIT transaction is created
+2023-05-16 14:56:21,490 - INFO - LPQZOpnel98jgaKBzyVX
+2023-05-16 14:56:21,490 - INFO - INTERNAL
+2023-05-16 14:56:21,490 - INFO - 14.427114522425155
+2023-05-16 14:56:21,490 - INFO - CREATED
+2023-05-16 14:56:23,092 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-16 14:56:23,093 - INFO - {"Status": "Error", "Description": "Payment is a duplicate of another payment", "Payment_type": "INTERNAL"}
+2023-05-18 09:37:08,833 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-18 09:37:09,735 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-18 09:37:09,736 - INFO - Successfully logged in to Wallter!
+2023-05-18 09:37:11,187 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-18 09:37:11,187 - INFO - SEPA DEBIT transaction is created
+2023-05-18 09:37:11,187 - INFO - 2065701
+2023-05-18 09:37:11,187 - INFO - SEPA
+2023-05-18 09:37:11,187 - INFO - 6.097800016884385
+2023-05-18 09:37:11,187 - INFO - CREATED
+2023-05-18 09:37:12,953 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-18 09:37:12,954 - INFO - Internal DEBIT transaction is created
+2023-05-18 09:37:12,954 - INFO - 2065702
+2023-05-18 09:37:12,954 - INFO - INTERNAL
+2023-05-18 09:37:12,954 - INFO - 15.933235566453424
+2023-05-18 09:37:12,955 - INFO - CREATED
+2023-05-18 09:37:14,289 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-18 09:37:14,290 - INFO - 400
+2023-05-18 09:44:11,127 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-18 09:44:11,904 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-18 09:44:11,904 - INFO - Successfully logged in to Wallter!
+2023-05-18 09:44:13,358 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-18 09:44:14,538 - INFO - SEPA DEBIT transaction is created
+2023-05-18 09:44:14,538 - INFO - 2065705
+2023-05-18 09:44:14,539 - INFO - SEPA
+2023-05-18 09:44:14,539 - INFO - 2.685140342398913
+2023-05-18 09:44:14,539 - INFO - CREATED
+2023-05-18 09:44:14,540 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-18 09:44:15,021 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-18 09:44:15,524 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/6465c93dff10ff089e00000d HTTP/1.1" 200 None
+2023-05-18 09:44:15,524 - INFO - 6465c93dff10ff089e00000d
+2023-05-18 09:44:15,524 - INFO - Transaction is completed!
+2023-05-18 09:52:38,457 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-18 09:52:39,247 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-18 09:52:39,248 - INFO - Successfully logged in to Wallter!
+2023-05-18 09:52:40,686 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-18 09:52:41,630 - INFO - SEPA DEBIT transaction is created
+2023-05-18 09:52:41,630 - INFO - 2065708
+2023-05-18 09:52:41,630 - INFO - SEPA
+2023-05-18 09:52:41,631 - INFO - 2.912987880200844
+2023-05-18 09:52:41,631 - INFO - CREATED
+2023-05-18 09:52:41,632 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-18 09:52:42,102 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-18 09:52:42,489 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/6465cb39ff10ff089e000010 HTTP/1.1" 200 None
+2023-05-18 09:52:42,490 - INFO - 6465cb39ff10ff089e000010
+2023-05-18 09:52:42,490 - INFO - Transaction is completed!
+2023-05-18 10:13:01,708 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-18 10:13:02,452 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-18 10:13:02,453 - INFO - Successfully logged in to Wallter!
+2023-05-18 10:13:03,899 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-18 10:13:04,936 - INFO - SEPA DEBIT transaction is created
+2023-05-18 10:13:04,936 - INFO - 2065711
+2023-05-18 10:13:04,936 - INFO - SEPA
+2023-05-18 10:13:04,936 - INFO - 9.452758579160939
+2023-05-18 10:13:04,936 - INFO - CREATED
+2023-05-18 10:13:04,940 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-18 10:13:05,419 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-18 10:13:05,932 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/6465d000ff10ff089e000013 HTTP/1.1" 200 None
+2023-05-18 10:13:05,932 - INFO - 6465d000ff10ff089e000013
+2023-05-18 10:13:05,932 - INFO - Transaction is completed!
+2023-05-18 10:16:21,703 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-18 10:16:22,420 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-18 10:16:22,420 - INFO - Successfully logged in to Wallter!
+2023-05-18 10:16:23,751 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-18 10:16:24,658 - INFO - SEPA DEBIT transaction is created
+2023-05-18 10:16:24,658 - INFO - 2065714
+2023-05-18 10:16:24,658 - INFO - SEPA
+2023-05-18 10:16:24,658 - INFO - 1.1148793859848194
+2023-05-18 10:16:24,658 - INFO - CREATED
+2023-05-18 10:16:24,660 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-18 10:16:25,270 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-18 10:16:25,762 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/6465d0c8ff10ff089e000016 HTTP/1.1" 200 None
+2023-05-18 10:16:25,763 - INFO - 6465d0c8ff10ff089e000016
+2023-05-18 10:16:25,763 - INFO - Transaction is completed!
+2023-05-18 10:18:19,863 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-18 10:18:20,693 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-18 10:18:20,694 - INFO - Successfully logged in to Wallter!
+2023-05-18 10:18:22,260 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-18 10:18:23,213 - INFO - SEPA DEBIT transaction is created
+2023-05-18 10:18:23,213 - INFO - 2065717
+2023-05-18 10:18:23,213 - INFO - SEPA
+2023-05-18 10:18:23,213 - INFO - 7.224331657872666
+2023-05-18 10:18:23,213 - INFO - CREATED
+2023-05-18 10:18:23,215 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-18 10:18:23,690 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-18 10:18:24,085 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/6465d13eff10ff089e000019 HTTP/1.1" 200 None
+2023-05-18 10:18:24,085 - INFO - 6465d13eff10ff089e000019
+2023-05-18 10:18:24,085 - INFO - Transaction is completed!
+2023-05-18 13:07:29,707 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-18 13:07:30,508 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-18 13:07:30,508 - INFO - Successfully logged in to Wallter!
+2023-05-18 13:07:32,003 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-18 13:07:32,003 - INFO - SEPA DEBIT transaction is created
+2023-05-18 13:07:32,003 - INFO - 2065721
+2023-05-18 13:07:32,003 - INFO - SEPA
+2023-05-18 13:07:32,003 - INFO - 1.2856606351397866
+2023-05-18 13:07:32,003 - INFO - CREATED
+2023-05-18 13:07:33,682 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-18 13:07:33,682 - INFO - Internal DEBIT transaction is created
+2023-05-18 13:07:33,683 - INFO - 2065722
+2023-05-18 13:07:33,683 - INFO - INTERNAL
+2023-05-18 13:07:33,683 - INFO - 8.903355150429338
+2023-05-18 13:07:33,683 - INFO - CREATED
+2023-05-18 13:07:34,897 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-18 13:07:34,897 - INFO - 400
+2023-05-18 13:12:48,376 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-18 13:12:49,093 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-18 13:12:49,093 - INFO - Successfully logged in to Wallter!
+2023-05-18 13:12:50,776 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-18 13:12:50,777 - INFO - Internal DEBIT transaction is created
+2023-05-18 13:12:50,777 - INFO - 2065726
+2023-05-18 13:12:50,777 - INFO - INTERNAL
+2023-05-18 13:12:50,777 - INFO - 4.493738617135249
+2023-05-18 13:12:50,777 - INFO - CREATED
+2023-05-18 13:12:52,463 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-18 13:12:52,464 - INFO - 400
+2023-05-18 13:15:00,300 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-18 13:15:00,976 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-18 13:15:00,976 - INFO - Successfully logged in to Wallter!
+2023-05-18 13:15:02,791 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-18 13:15:02,792 - INFO - Internal DEBIT transaction is created
+2023-05-18 13:15:02,792 - INFO - 2065727
+2023-05-18 13:15:02,792 - INFO - INTERNAL
+2023-05-18 13:15:02,792 - INFO - 20.05312079348455
+2023-05-18 13:15:02,792 - INFO - CREATED
+2023-05-18 13:15:04,475 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-18 13:15:04,476 - INFO - 400
+2023-05-18 13:15:44,941 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-18 13:15:45,575 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-18 13:15:45,575 - INFO - Successfully logged in to Wallter!
+2023-05-18 13:15:47,253 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-18 13:15:47,253 - INFO - Internal DEBIT transaction is created
+2023-05-18 13:15:47,254 - INFO - 2065728
+2023-05-18 13:15:47,254 - INFO - INTERNAL
+2023-05-18 13:15:47,254 - INFO - 9.376882463367142
+2023-05-18 13:15:47,254 - INFO - CREATED
+2023-05-18 13:15:48,931 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-18 13:15:48,932 - INFO - 400
+2023-05-18 13:15:48,932 - INFO - {"category":"Error","description":"Service Failure. Please Contact Support","code":"ER01","requestId":"f671a2e2-f564-11ed-ae32-06b1371558f2","time":"Thu, 18 May 2023 10:15:49 GMT","result":{}}
+
+2023-05-18 13:26:25,393 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-18 13:26:26,228 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-18 13:26:26,229 - INFO - Successfully logged in to Wallter!
+2023-05-18 13:26:27,698 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-18 13:26:28,648 - INFO - SEPA DEBIT transaction is created
+2023-05-18 13:26:28,649 - INFO - 2065732
+2023-05-18 13:26:28,649 - INFO - SEPA
+2023-05-18 13:26:28,649 - INFO - 7.017225608924641
+2023-05-18 13:26:28,649 - INFO - CREATED
+2023-05-18 13:26:28,650 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-18 13:26:29,170 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-18 13:26:29,567 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/6465fd54ff10ff089e000028 HTTP/1.1" 200 None
+2023-05-18 13:26:29,567 - INFO - 6465fd54ff10ff089e000028
+2023-05-18 13:26:29,567 - INFO - Transaction is completed!
+2023-05-18 13:26:44,918 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/pop/2065732 HTTP/1.1" 200 23356
+2023-05-18 13:26:44,919 - INFO - 2065732
+2023-05-18 13:26:44,919 - INFO - Proof of payment is accepted
+2023-05-18 13:50:06,291 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-18 13:50:07,167 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-18 13:50:07,168 - INFO - Successfully logged in to Wallter!
+2023-05-18 13:50:08,407 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-18 13:50:08,408 - INFO - 400
+2023-05-18 13:53:36,662 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-18 13:53:37,340 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-18 13:53:37,341 - INFO - Successfully logged in to Wallter!
+2023-05-18 13:53:39,025 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-18 13:53:39,025 - INFO - Internal DEBIT transaction is created
+2023-05-18 13:53:39,025 - INFO - 2065736
+2023-05-18 13:53:39,026 - INFO - INTERNAL
+2023-05-18 13:53:39,026 - INFO - 22.167499038134693
+2023-05-18 13:53:39,026 - INFO - CREATED
+2023-05-18 13:53:40,625 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-18 13:53:40,626 - INFO - 400
+2023-05-18 13:53:40,626 - INFO - {"category":"Error","description":"Service Failure. Please Contact Support","code":"ER01","requestId":"407aa276-f56a-11ed-8c40-06b1371558f2","time":"Thu, 18 May 2023 10:53:41 GMT","result":{}}
+
+2023-05-21 13:16:49,916 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-21 13:16:50,769 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-21 13:16:50,771 - INFO - Successfully logged in to Wallter!
+2023-05-21 13:16:52,510 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-21 13:16:52,510 - INFO - SEPA DEBIT transaction is created
+2023-05-21 13:16:52,510 - INFO - 2065738
+2023-05-21 13:16:52,510 - INFO - SEPA
+2023-05-21 13:16:52,510 - INFO - 5.813184777743624
+2023-05-21 13:16:52,510 - INFO - CREATED
+2023-05-21 13:21:46,456 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-21 13:21:47,185 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-21 13:21:47,186 - INFO - Successfully logged in to Wallter!
+2023-05-21 13:21:48,837 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-21 13:21:48,837 - INFO - Internal DEBIT transaction is created
+2023-05-21 13:21:48,837 - INFO - 2065739
+2023-05-21 13:21:48,837 - INFO - INTERNAL
+2023-05-21 13:21:48,837 - INFO - 6.400301728709017
+2023-05-21 13:21:48,837 - INFO - CREATED
+2023-05-21 13:24:23,408 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-21 13:24:24,203 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-21 13:24:24,203 - INFO - Successfully logged in to Wallter!
+2023-05-21 13:24:25,673 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-21 13:24:25,674 - INFO - SEPA DEBIT transaction is created
+2023-05-21 13:24:25,674 - INFO - 2065740
+2023-05-21 13:24:25,674 - INFO - SEPA
+2023-05-21 13:24:25,674 - INFO - 8.720808274498804
+2023-05-21 13:24:25,674 - INFO - CREATED
+2023-05-21 13:24:25,771 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/2065740 HTTP/1.1" 200 None
+2023-05-21 13:24:25,771 - INFO - SEPA
+2023-05-21 13:24:25,772 - INFO - Sun, 21 May 2023 10:24:26 GMT
+2023-05-21 13:24:25,772 - INFO - IN PROGRESS
+2023-05-21 13:24:25,772 - INFO - None
+2023-05-21 13:25:33,804 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-21 13:25:34,583 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-21 13:25:34,583 - INFO - Successfully logged in to Wallter!
+2023-05-21 13:25:35,918 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-21 13:25:37,159 - INFO - SEPA DEBIT transaction is created
+2023-05-21 13:25:37,159 - INFO - 2065741
+2023-05-21 13:25:37,159 - INFO - SEPA
+2023-05-21 13:25:37,159 - INFO - 8.08760807412679
+2023-05-21 13:25:37,159 - INFO - CREATED
+2023-05-21 13:25:37,161 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-21 13:25:37,662 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-21 13:25:38,051 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/6469f1a0ff10ff0899000004 HTTP/1.1" 200 None
+2023-05-21 13:25:38,052 - INFO - 6469f1a0ff10ff0899000004
+2023-05-21 13:25:38,052 - INFO - Transaction is completed!
+2023-05-21 13:25:53,344 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/pop/2065741 HTTP/1.1" 200 23356
+2023-05-21 13:25:53,344 - INFO - 2065741
+2023-05-21 13:25:53,345 - INFO - Proof of payment is accepted
+2023-05-21 13:27:22,881 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-21 13:27:23,555 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-21 13:27:23,556 - INFO - Successfully logged in to Wallter!
+2023-05-21 13:27:25,222 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-21 13:27:25,222 - INFO - Internal DEBIT transaction is created
+2023-05-21 13:27:25,222 - INFO - 2065744
+2023-05-21 13:27:25,222 - INFO - INTERNAL
+2023-05-21 13:27:25,223 - INFO - 15.960821639420605
+2023-05-21 13:27:25,223 - INFO - CREATED
+2023-05-21 13:27:26,992 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-21 13:27:26,992 - INFO - 400
+2023-05-21 13:27:26,992 - INFO - {"category":"Error","description":"Service Failure. Please Contact Support","code":"ER01","requestId":"15e43d88-f7c2-11ed-a372-06b1371558f2","time":"Sun, 21 May 2023 10:27:28 GMT","result":{}}
+
+2023-05-22 13:43:08,345 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-22 13:43:09,093 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-22 13:43:09,093 - INFO - Successfully logged in to Wallter!
+2023-05-22 13:43:09,181 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 401 216
+2023-05-22 13:43:09,182 - INFO - 401
+2023-05-22 13:43:09,182 - INFO - {"category":"Token","description":"Authorization token is missing. please login to create a token","code":"TK01","requestId":"71efbb7c-f88d-11ed-a701-06b1371558f2","time":"Mon, 22 May 2023 10:43:10 GMT","result":{}}
+
+2023-05-23 12:04:16,038 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-23 12:04:16,891 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-23 12:04:16,893 - INFO - Successfully logged in to Wallter!
+2023-05-23 12:04:18,504 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-23 12:04:18,504 - INFO - SEPA DEBIT transaction is created
+2023-05-23 12:04:18,504 - INFO - 2065774
+2023-05-23 12:04:18,504 - INFO - SEPA
+2023-05-23 12:04:18,504 - INFO - 3.700971383157936
+2023-05-23 12:04:18,504 - INFO - CREATED
+2023-05-23 12:04:20,407 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-23 12:04:20,408 - INFO - Internal DEBIT transaction is created
+2023-05-23 12:04:20,408 - INFO - 2065775
+2023-05-23 12:04:20,408 - INFO - INTERNAL
+2023-05-23 12:04:20,408 - INFO - 3.8101401797245664
+2023-05-23 12:04:20,409 - INFO - CREATED
+2023-05-23 12:04:33,126 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-23 12:04:33,127 - INFO - SEPA Instant transaction is created
+2023-05-23 12:04:33,127 - INFO - 2065776
+2023-05-23 12:04:33,127 - INFO - SEPA
+2023-05-23 12:04:33,127 - INFO - 3.395505475578464
+2023-05-23 12:04:33,127 - INFO - REJECTED
+2023-05-23 12:05:42,980 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-23 12:05:43,713 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-23 12:05:43,713 - INFO - Successfully logged in to Wallter!
+2023-05-23 12:05:56,286 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-23 12:05:56,287 - INFO - SEPA Instant transaction is created
+2023-05-23 12:05:56,287 - INFO - 2065777
+2023-05-23 12:05:56,287 - INFO - SEPA
+2023-05-23 12:05:56,287 - INFO - 3.413495643179998
+2023-05-23 12:05:56,287 - INFO - REJECTED
+2023-05-23 12:06:41,888 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-23 12:06:42,565 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-23 12:06:42,565 - INFO - Successfully logged in to Wallter!
+2023-05-23 12:06:44,277 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-23 12:06:44,278 - INFO - Internal DEBIT transaction is created
+2023-05-23 12:06:44,278 - INFO - 2065778
+2023-05-23 12:06:44,278 - INFO - INTERNAL
+2023-05-23 12:06:44,278 - INFO - 13.35338569599154
+2023-05-23 12:06:44,278 - INFO - CREATED
+2023-05-23 12:07:29,877 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-23 12:07:30,643 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-23 12:07:30,643 - INFO - Successfully logged in to Wallter!
+2023-05-23 12:07:32,220 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-23 12:07:32,221 - INFO - SEPA DEBIT transaction is created
+2023-05-23 12:07:32,221 - INFO - 2065779
+2023-05-23 12:07:32,221 - INFO - SEPA
+2023-05-23 12:07:32,221 - INFO - 5.379100328605939
+2023-05-23 12:07:32,221 - INFO - CREATED
+2023-05-23 12:08:11,827 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-23 12:08:12,303 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-23 12:08:12,304 - INFO - Successfully logged in to Wallter!
+2023-05-23 12:08:14,101 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-23 12:08:14,102 - INFO - Internal DEBIT transaction is created
+2023-05-23 12:08:14,102 - INFO - 2065780
+2023-05-23 12:08:14,102 - INFO - INTERNAL
+2023-05-23 12:08:14,102 - INFO - 19.942434659213014
+2023-05-23 12:08:14,102 - INFO - CREATED
+2023-05-23 12:08:15,800 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-23 12:08:15,801 - INFO - 400
+2023-05-23 12:08:15,801 - INFO - {"category":"Error","description":"Service Failure. Please Contact Support","code":"ER01","requestId":"5ade5ab2-f949-11ed-8786-06b1371558f2","time":"Tue, 23 May 2023 09:08:17 GMT","result":{}}
+
+2023-05-23 12:14:08,457 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-23 12:14:09,208 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-23 12:14:09,208 - INFO - Successfully logged in to Wallter!
+2023-05-23 12:14:10,794 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-23 12:14:10,795 - INFO - SEPA DEBIT transaction is created
+2023-05-23 12:14:10,795 - INFO - 2065781
+2023-05-23 12:14:10,795 - INFO - SEPA
+2023-05-23 12:14:10,795 - INFO - 5.344229903752788
+2023-05-23 12:14:10,795 - INFO - CREATED
+2023-05-23 12:14:10,890 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/2065781 HTTP/1.1" 200 None
+2023-05-23 12:14:10,891 - INFO - SEPA
+2023-05-23 12:14:10,891 - INFO - Tue, 23 May 2023 09:14:11 GMT
+2023-05-23 12:14:10,891 - INFO - IN PROGRESS
+2023-05-23 12:14:10,891 - INFO - None
+2023-05-23 12:14:47,044 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-23 12:14:47,782 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-23 12:14:47,784 - INFO - Successfully logged in to Wallter!
+2023-05-23 12:14:49,378 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-23 12:14:50,720 - INFO - SEPA DEBIT transaction is created
+2023-05-23 12:14:50,720 - INFO - 2065782
+2023-05-23 12:14:50,720 - INFO - SEPA
+2023-05-23 12:14:50,720 - INFO - 3.923029222717646
+2023-05-23 12:14:50,720 - INFO - CREATED
+2023-05-23 12:14:50,722 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-23 12:14:51,305 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-23 12:14:51,727 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/646c840aff10ff393f00000d HTTP/1.1" 200 None
+2023-05-23 12:14:51,728 - INFO - 646c840aff10ff393f00000d
+2023-05-23 12:14:51,728 - INFO - Transaction is completed!
+2023-05-23 12:15:06,838 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/pop/2065782 HTTP/1.1" 400 193
+2023-05-23 12:15:06,838 - INFO - 400
+2023-05-23 12:15:51,255 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-23 12:15:52,033 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-23 12:15:52,035 - INFO - Successfully logged in to Wallter!
+2023-05-23 12:16:56,312 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-23 12:18:09,568 - INFO - SEPA DEBIT transaction is created
+2023-05-23 12:18:39,872 - INFO - 2065785
+2023-05-23 12:18:43,668 - INFO - SEPA
+2023-05-23 12:18:45,800 - INFO - 3.2965434531207514
+2023-05-23 12:18:49,890 - INFO - CREATED
+2023-05-23 12:19:12,821 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-23 12:19:13,402 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-23 12:19:57,560 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/646c8489ff10ff393f000010 HTTP/1.1" 200 None
+2023-05-23 12:20:33,646 - INFO - 646c8489ff10ff393f000010
+2023-05-23 12:20:36,809 - INFO - Transaction is completed!
+2023-05-23 12:21:47,802 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/pop/2065785 HTTP/1.1" 400 193
+2023-05-23 12:22:55,556 - INFO - 400
+2023-05-29 11:10:41,052 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-29 11:10:41,627 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-29 11:10:41,631 - INFO - Successfully logged in to Wallter!
+2023-05-29 11:10:43,103 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-29 11:10:43,104 - INFO - SEPA DEBIT transaction is created
+2023-05-29 11:10:43,104 - INFO - 2065800
+2023-05-29 11:10:43,104 - INFO - SEPA
+2023-05-29 11:10:43,104 - INFO - 6.702568260295578
+2023-05-29 11:10:43,104 - INFO - CREATED
+2023-05-29 11:10:43,184 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/2065800 HTTP/1.1" 405 None
+2023-05-29 11:10:43,185 - ERROR - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\annan\Python310\lib\site-packages\simplejson\__init__.py", line 514, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\annan\Python310\lib\site-packages\simplejson\decoder.py", line 386, in decode
+    obj, end = self.raw_decode(s)
+  File "C:\Users\annan\Python310\lib\site-packages\simplejson\decoder.py", line 416, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.errors.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\annan\PycharmProjects\inpay\CancelTXN_flow.py", line 75, in main_flow
+    payment_ID = CancelDebitPaymentResponse.json().get("payment_id")
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-05-29 11:13:14,077 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-29 11:13:14,727 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-29 11:13:14,727 - INFO - Successfully logged in to Wallter!
+2023-05-29 11:13:16,174 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-29 11:13:16,174 - INFO - SEPA DEBIT transaction is created
+2023-05-29 11:13:16,174 - INFO - 2065801
+2023-05-29 11:13:16,174 - INFO - SEPA
+2023-05-29 11:13:16,175 - INFO - 4.206327355543771
+2023-05-29 11:13:16,175 - INFO - CREATED
+2023-05-29 11:14:02,672 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/2065801 HTTP/1.1" 405 None
+2023-05-29 11:14:46,840 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-29 11:15:15,045 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-05-29 11:16:34,041 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-29 11:16:34,763 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-29 11:16:34,763 - INFO - Successfully logged in to Wallter!
+2023-05-29 11:16:36,334 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-29 11:16:36,335 - INFO - SEPA DEBIT transaction is created
+2023-05-29 11:16:36,335 - INFO - 2065802
+2023-05-29 11:16:36,335 - INFO - SEPA
+2023-05-29 11:16:36,335 - INFO - 8.081408054119951
+2023-05-29 11:16:36,335 - INFO - CREATED
+2023-05-29 11:16:36,802 - DEBUG - https://api-stage.wallter.com:443 "DELETE /api/v2/payments/2065802 HTTP/1.1" 200 None
+2023-05-29 11:16:36,802 - INFO - SEPA DEBIT transaction is canceled
+2023-05-29 11:16:36,802 - INFO - 2065802
+2023-05-29 11:16:36,802 - INFO - CANCELED
+2023-05-29 11:35:12,559 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-29 11:35:13,366 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-29 11:35:13,368 - INFO - Successfully logged in to Wallter!
+2023-05-29 11:35:15,166 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-29 11:35:15,167 - INFO - Internal DEBIT transaction is created
+2023-05-29 11:35:15,167 - INFO - 2065803
+2023-05-29 11:35:15,167 - INFO - INTERNAL
+2023-05-29 11:35:15,167 - INFO - 19.142573216247243
+2023-05-29 11:35:15,168 - INFO - CREATED
+2023-05-29 11:35:15,667 - DEBUG - https://api-stage.wallter.com:443 "DELETE /api/v2/payments/2065803 HTTP/1.1" 200 None
+2023-05-29 11:35:15,667 - INFO - Internal DEBIT transaction is canceled
+2023-05-29 11:35:15,667 - INFO - 2065803
+2023-05-29 11:35:15,667 - INFO - CANCELED
+2023-05-29 12:24:33,504 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-29 12:24:34,232 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-29 12:24:34,235 - INFO - Successfully logged in to Wallter!
+2023-05-29 12:24:35,466 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-29 12:24:35,468 - INFO - 400
+2023-05-29 13:17:11,105 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-29 13:17:11,906 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-29 13:17:11,907 - INFO - Successfully logged in to Wallter!
+2023-05-29 13:17:13,361 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-29 13:17:14,367 - INFO - SEPA DEBIT transaction is created
+2023-05-29 13:17:14,367 - INFO - 2065827
+2023-05-29 13:17:14,367 - INFO - SEPA
+2023-05-29 13:17:14,368 - INFO - 4.723938807557592
+2023-05-29 13:17:14,368 - INFO - CREATED
+2023-05-29 13:17:14,369 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-29 13:17:14,819 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-29 13:17:15,215 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/64747ba9ff10ff089800001f HTTP/1.1" 200 None
+2023-05-29 13:17:15,215 - INFO - 64747ba9ff10ff089800001f
+2023-05-29 13:17:15,215 - INFO - Transaction is completed!
+2023-05-29 13:17:45,429 - DEBUG - https://api-stage.wallter.com:443 "DELETE /api/v2/payments/2065827 HTTP/1.1" 400 83
+2023-05-29 13:17:45,430 - INFO - 400
+2023-05-29 13:17:45,430 - INFO - Transition from status CANCELED to CANCELED is not allowed
+2023-05-29 13:42:08,168 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-29 13:42:08,936 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-29 13:42:08,937 - INFO - Successfully logged in to Wallter!
+2023-05-29 13:42:10,296 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-29 13:42:11,274 - INFO - SEPA DEBIT transaction is created
+2023-05-29 13:42:11,274 - INFO - 2065829
+2023-05-29 13:42:11,274 - INFO - SEPA
+2023-05-29 13:42:11,274 - INFO - 6.638601608754629
+2023-05-29 13:42:11,274 - INFO - CREATED
+2023-05-29 13:42:11,275 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-29 13:42:11,789 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-29 13:42:12,185 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/64748182ff10ff0898000021 HTTP/1.1" 200 None
+2023-05-29 13:42:12,187 - INFO - 64748182ff10ff0898000021
+2023-05-29 13:42:12,188 - INFO - Transaction is completed!
+2023-05-29 13:42:12,377 - DEBUG - https://api-stage.wallter.com:443 "DELETE /api/v2/payments/2065829 HTTP/1.1" 400 83
+2023-05-29 13:42:12,378 - INFO - 400
+2023-05-29 13:42:12,379 - INFO - Transition from status REJECTED to CANCELED is not allowed
+2023-05-29 15:15:40,191 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-29 15:15:40,975 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-29 15:15:40,976 - INFO - Successfully logged in to Wallter!
+2023-05-29 15:15:42,207 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-29 15:15:42,208 - INFO - 400
+2023-05-30 08:56:28,710 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-30 08:56:29,560 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-30 08:56:29,564 - INFO - Successfully logged in to Wallter!
+2023-05-30 08:57:01,021 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-30 09:00:30,775 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-30 09:00:31,469 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-30 09:00:31,470 - INFO - Successfully logged in to Wallter!
+2023-05-30 09:01:02,733 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-30 09:03:30,442 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-30 09:03:31,271 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-30 09:03:31,272 - INFO - Successfully logged in to Wallter!
+2023-05-30 09:03:32,727 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-30 09:06:27,223 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-30 09:06:27,929 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-30 09:06:27,930 - INFO - Successfully logged in to Wallter!
+2023-05-30 09:06:29,501 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-30 09:12:23,012 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-30 09:12:23,750 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-30 09:12:23,751 - INFO - Successfully logged in to Wallter!
+2023-05-30 09:12:25,339 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-30 09:12:26,351 - INFO - SEPA DEBIT transaction is created
+2023-05-30 09:12:26,351 - INFO - 2065834
+2023-05-30 09:12:26,351 - INFO - SEPA
+2023-05-30 09:12:26,351 - INFO - 5.48229964282303
+2023-05-30 09:12:26,351 - INFO - CREATED
+2023-05-30 09:12:26,352 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-30 09:12:26,783 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-30 09:12:27,195 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/647593c9ff10ff088d000004 HTTP/1.1" 200 None
+2023-05-30 09:12:27,196 - INFO - 647593c9ff10ff088d000004
+2023-05-30 09:12:27,196 - INFO - Transaction is completed!
+2023-05-30 09:12:42,524 - DEBUG - https://api-stage.wallter.com:443 "GET /api/v2/payments/pop/2065834 HTTP/1.1" 200 23351
+2023-05-30 09:12:42,524 - INFO - 2065834
+2023-05-30 09:12:42,524 - INFO - Proof of payment is accepted
+2023-05-30 09:43:18,184 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-30 09:43:18,813 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-30 09:43:18,813 - INFO - Successfully logged in to Wallter!
+2023-05-30 09:43:20,267 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-30 09:43:21,257 - INFO - SEPA DEBIT transaction is created
+2023-05-30 09:43:21,257 - INFO - 2065837
+2023-05-30 09:43:21,257 - INFO - SEPA
+2023-05-30 09:43:21,257 - INFO - 3.489253124498041
+2023-05-30 09:43:21,257 - INFO - CREATED
+2023-05-30 09:43:21,259 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-30 09:43:21,825 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-30 09:43:22,328 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/64759b08ff10ff088d000007 HTTP/1.1" 200 None
+2023-05-30 09:43:22,328 - INFO - 64759b08ff10ff088d000007
+2023-05-30 09:43:22,328 - INFO - Transaction is completed!
+2023-05-30 09:43:25,774 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-30 09:43:25,775 - INFO - Internal DEBIT transaction is created
+2023-05-30 09:43:25,775 - INFO - 2065840
+2023-05-30 09:43:25,775 - INFO - INTERNAL
+2023-05-30 09:43:25,775 - INFO - 1.8389224738308831
+2023-05-30 09:43:25,775 - INFO - CREATED
+2023-05-30 09:43:27,236 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-30 09:43:27,236 - INFO - 400
+2023-05-30 10:02:17,043 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-30 10:02:17,866 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-30 10:02:17,866 - INFO - Successfully logged in to Wallter!
+2023-05-30 10:02:19,437 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-30 10:02:20,450 - INFO - SEPA DEBIT transaction is created
+2023-05-30 10:02:20,450 - INFO - 2065842
+2023-05-30 10:02:20,450 - INFO - SEPA
+2023-05-30 10:02:20,450 - INFO - 8.646269422883869
+2023-05-30 10:02:20,450 - INFO - CREATED
+2023-05-30 10:02:20,452 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-30 10:02:21,023 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-30 10:02:21,513 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/64759f7bff10ff088d00000c HTTP/1.1" 200 None
+2023-05-30 10:02:21,514 - INFO - 64759f7bff10ff088d00000c
+2023-05-30 10:02:21,514 - INFO - Transaction is completed!
+2023-05-30 10:02:25,215 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-30 10:02:25,216 - INFO - Internal DEBIT transaction is created
+2023-05-30 10:02:25,216 - INFO - 2065845
+2023-05-30 10:02:25,216 - INFO - INTERNAL
+2023-05-30 10:02:25,217 - INFO - 7.65986081848288
+2023-05-30 10:02:25,217 - INFO - CREATED
+2023-05-30 10:02:25,774 - DEBUG - https://api-stage.wallter.com:443 "DELETE /api/v2/payments/2065845 HTTP/1.1" 200 None
+2023-05-30 10:02:25,775 - INFO - Internal DEBIT transaction is canceled
+2023-05-30 10:02:25,776 - INFO - 2065845
+2023-05-30 10:02:25,776 - INFO - CANCELED
+2023-05-30 10:02:27,134 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-30 10:02:27,135 - INFO - 400
+2023-05-30 10:02:27,135 - INFO - {"category":"Error","description":"Service Failure. Please Contact Support","code":"ER01","requestId":"efeebe62-feb7-11ed-b37e-06b1371558f2","time":"Tue, 30 May 2023 07:02:27 GMT","result":{}}
+
+2023-05-30 11:28:42,753 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-30 11:28:43,594 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-30 11:28:43,595 - INFO - Successfully logged in to Wallter!
+2023-05-30 11:28:45,381 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-05-30 11:28:45,382 - INFO - Internal DEBIT transaction is created
+2023-05-30 11:28:45,382 - INFO - 2065847
+2023-05-30 11:28:45,382 - INFO - INTERNAL
+2023-05-30 11:28:45,382 - INFO - 7.861895780570762
+2023-05-30 11:28:45,382 - INFO - CREATED
+2023-05-30 11:28:47,176 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-05-30 11:28:47,177 - INFO - 400
+2023-05-30 11:28:47,178 - INFO - {"category":"Error","description":"Service Failure. Please Contact Support","code":"ER01","requestId":"ff7afb8c-fec3-11ed-b80b-06b1371558f2","time":"Tue, 30 May 2023 08:28:47 GMT","result":{}}
+
+2023-06-06 09:55:13,374 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-06-06 09:55:14,132 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-06-06 09:55:14,132 - INFO - Successfully logged in to Wallter!
+2023-06-06 09:55:15,927 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-06-06 09:55:17,205 - INFO - SEPA DEBIT transaction is created
+2023-06-06 09:55:17,205 - INFO - 2065888
+2023-06-06 09:55:17,205 - INFO - SEPA
+2023-06-06 09:55:17,205 - INFO - 2.4290189056663687
+2023-06-06 09:55:17,205 - INFO - CREATED
+2023-06-06 09:55:17,206 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-06-06 09:55:17,645 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-06-06 09:55:18,016 - DEBUG - https://api-stage.wallter.com:443 "PATCH /api/transaction/647ed854ff10ff089a000001 HTTP/1.1" 200 None
+2023-06-06 09:55:18,016 - INFO - 647ed854ff10ff089a000001
+2023-06-06 09:55:18,016 - INFO - Transaction is completed!
+2023-06-06 09:55:21,812 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-06-06 09:55:21,812 - INFO - Internal DEBIT transaction is created
+2023-06-06 09:55:21,812 - INFO - 2065891
+2023-06-06 09:55:21,813 - INFO - INTERNAL
+2023-06-06 09:55:21,813 - INFO - 9.574910365561054
+2023-06-06 09:55:21,813 - INFO - CREATED
+2023-06-06 09:55:22,346 - DEBUG - https://api-stage.wallter.com:443 "DELETE /api/v2/payments/2065891 HTTP/1.1" 200 None
+2023-06-06 09:55:22,347 - INFO - Internal DEBIT transaction is canceled
+2023-06-06 09:55:22,347 - INFO - 2065891
+2023-06-06 09:55:22,347 - INFO - CANCELED
+2023-06-06 09:55:35,017 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-06-06 09:55:35,017 - INFO - Instant transaction is created
+2023-06-06 09:55:35,017 - INFO - 2065892
+2023-06-06 09:55:35,017 - INFO - SEPA
+2023-06-06 09:55:35,017 - INFO - 3.829865102089051
+2023-06-06 09:55:35,017 - INFO - REJECTED
+2023-06-06 10:13:37,925 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-06-06 10:13:38,739 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-06-06 10:13:38,742 - INFO - Successfully logged in to Wallter!
+2023-06-06 10:13:40,090 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-06-06 10:13:40,091 - INFO - 400
+2023-06-06 10:36:57,481 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-06-06 10:36:58,435 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-06-06 10:36:58,436 - INFO - Successfully logged in to Wallter!
+2023-06-06 10:36:59,903 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-06-06 10:36:59,904 - INFO - SEPA DEBIT transaction is created
+2023-06-06 10:36:59,904 - INFO - 2065903
+2023-06-06 10:36:59,904 - INFO - SEPA
+2023-06-06 10:36:59,904 - INFO - 5.558863971327098
+2023-06-06 10:36:59,905 - INFO - CREATED
+2023-06-06 10:39:44,086 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-06-06 10:39:44,911 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-06-06 10:39:44,913 - INFO - Successfully logged in to Wallter!
+2023-06-06 10:39:46,490 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 200 None
+2023-06-06 10:39:46,491 - INFO - SEPA DEBIT transaction is created
+2023-06-06 10:39:46,492 - INFO - 2065904
+2023-06-06 10:39:46,492 - INFO - SEPA
+2023-06-06 10:39:46,492 - INFO - 7.310688142802834
+2023-06-06 10:39:46,492 - INFO - CREATED
+2023-06-06 10:39:46,984 - DEBUG - https://api-stage.wallter.com:443 "DELETE /api/v2/payments/2065904 HTTP/1.1" 200 None
+2023-06-06 10:39:46,985 - INFO - SEPA DEBIT transaction is canceled
+2023-06-06 10:39:46,985 - INFO - 2065904
+2023-06-06 10:39:46,985 - INFO - CANCELED
+2023-06-06 10:59:46,390 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-06-06 10:59:47,256 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-06-06 10:59:47,257 - INFO - Successfully logged in to Wallter!
+2023-06-06 10:59:48,490 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/debit HTTP/1.1" 400 193
+2023-06-06 10:59:48,490 - INFO - 400
